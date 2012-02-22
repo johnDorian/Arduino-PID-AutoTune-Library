@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map For PID AutoTune Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PID_ATune	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Runtime	KEYWORD2
+Cancel	KEYWORD2
+SetOutputStep	KEYWORD2
+GetOutputStep	KEYWORD2
+SetControlType	KEYWORD2
+GetControlType	KEYWORD2
+SetLookbackSec	KEYWORD2
+GetLookbackSec	KEYWORD2
+SetNoiseBand	KEYWORD2
+GetNoiseBand	KEYWORD2
+SetStartingOutput	KEYWORD2
+GetStartingOutput	KEYWORD2
+GetKp	KEYWORD2
+GetKi	KEYWORD2
+GetKd	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
