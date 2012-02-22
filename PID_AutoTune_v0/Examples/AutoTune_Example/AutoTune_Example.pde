@@ -99,8 +99,8 @@ void changeAutoTune()
 {
  if(!tuning)
   {
-    //Set the output to the desired starting frequency.
-    output=aTuneStartValue;
+
+    aTune.SetStartingOutput(aTuneStartValue);
     aTune.SetNoiseBand(aTuneNoise);
     aTune.SetOutputStep(aTuneStep);
     aTune.SetLookbackSec((int)aTuneLookBack);
