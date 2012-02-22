@@ -196,3 +196,13 @@ int PID_ATune::GetLookbackSec()
 {
 	return nLookBack * sampleTime / 1000;
 }
+
+void PID_ATune::SetStartingOutput(double value)
+{
+    *output = value;
+}
+
+double PID_ATune::GetStartingOutput()
+{
+    return outputStart;
+}
